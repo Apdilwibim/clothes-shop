@@ -1,0 +1,54 @@
+.header {
+    padding-top: 40px;
+    &__wrapper {
+        display: flex;
+        // justify-content: space-between;
+    }
+}
+
+.cart {
+    width: 20.085470%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    margin-left: 2.9914%;
+    &__item:nth-child(1) {
+        width: 52.63829%;
+    }
+    &__question {
+        font-family: 'Nunito Sans', sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 15px;
+        color: #19ACD3;
+        border: none;
+        outline: none;
+        width: 100%;
+        height: 19px;
+        border: 0.5px solid #19ACD3;
+        transition: 0.3s;
+        &:hover {
+            cursor: pointer;
+            background-color: rgb(119, 63, 18);
+        }
+    }
+    &__button {
+        display: block;
+        border: none;
+        outline: none;
+        background: transparent;
+        margin-left: 20px;
+    }
+    &__price {
+        padding-left: 7px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.075em;
+        color: #283033;
+    }
+}

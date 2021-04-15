@@ -1,0 +1,30 @@
+.logo {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    &__wrapper {
+        padding-left: 6px;
+    }
+    &__text {
+        display: block;
+        font-family: 'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 16px;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__title {
+        font-family: 'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 16px;
+        font-size: 10px;
+        color: #000000;
+    }
+    &__img {
+        max-width: 34px;
+        height: auto;
+    }
+}

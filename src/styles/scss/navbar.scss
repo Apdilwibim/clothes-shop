@@ -1,21 +1,10 @@
 .navbar {
     width: 51.7094%;
-    display: flex;
-    align-items: center;
-    margin-left: 10.2564%;
 }
 
 .navbar-nav {
-    width: 100%;
     display: flex;
-    align-items: center;
-    &__item:not(:first-child) {
-        margin-left: 7.43801%;
-        align-items: center;
-    }
-    &__item:last-child {
-        margin-left: 3.4710%;
-    }
+    justify-content: space-between;
     &__link {
         font-family: 'Nunito Sans', sans-serif;
         font-style: normal;
@@ -23,5 +12,13 @@
         font-size: 14px;
         line-height: 19px;
         color: #283033;
+        &_phone {
+            font-family: 'Nunito Sans', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 19px;
+            color: #283033;
+        }
     }
 }
